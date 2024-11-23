@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6; 
+    font-size: 14px;
+    background-color: hsl(217, 28%, 15%);
+}
+
+
+nav{
+   display: flex; 
+   justify-content: space-between;
+   padding: 40px;
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+
+}
+.links li a{
+    color: white;
+    transition: 0.4s;
+}
+
+.links li a:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+
+
+.main__img{
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding-block: 50px 150px;
+}
+.text h1{
+    color: white;
+    font-size: 2rem;
+    margin-block: 20px;
+}
+.text p{
+    color: rgb(202, 202, 202);
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+.blue_link {
+    padding: 15px 80px;
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 50px;
+    color: white;
+    transition: 0.3s;
+}
+
+.blue_link:hover{
+background-color: hsl(176, 68%, 64%);
+}
+
+.curve{
+    position: absolute;
+    bottom: -10px;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.service{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 100px;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+.group{
+    text-align: center;
+    width: 80%;
+}
+.group .text h2{
+    color: white;
+}
+
+
+
+.prod{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0 100px;
+}
+.prod a{
+    color: rgb(202, 202, 202);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.prod a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.profile{
+    display: grid;
+    width: 82%;
+    column-gap: 50px;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+}
+.box{
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 3px;
+    position: relative;
+    padding: 40px 30px 30px;
+    box-shadow: 10px 10px 5px;
+}
+.box p{
+    color: rgb(202, 202, 202);
+}
+.info{
+    display: flex;
+    gap: 15px;
+    padding-top: 25px;
+}
+.info img{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+.info h3{
+    font-size: .75rem;
+    color: white;
+}
+.info p{
+    font-size: .5rem;
+}
+.qu{
+    position: absolute;
+    top: -30px;
+    left: 10px;
+}
+
