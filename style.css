@@ -228,6 +228,9 @@ footer{
     padding-right: 40px;
     padding-bottom: 50px;
 }
+.footer__column{
+    line-height: 2rem;
+}
 .footer__column img{
 width: 17px;
 height: 17px;
@@ -255,3 +258,9 @@ margin-right: 20px;
     width: 45px;
     border: 1px solid rgb(202, 202, 202);
 }
+
+
+
+
+
+/*==============media================*/
