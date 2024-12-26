@@ -105,7 +105,7 @@ background-color: hsl(176, 68%, 64%);
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px 0 100px;
+    padding: 50px 10px 10px 100px;
 }
 .prod a{
     color: rgb(202, 202, 202);
@@ -219,13 +219,14 @@ footer{
 
 
 .footer__main{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: 25px;
     color: rgb(202, 202, 202);
     justify-items: self-end;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 50px;
 }
 .footer__column{
